@@ -50,10 +50,12 @@ body {
   .heroImg {
     background-image: url("https://images.unsplash.com/photo-1590069832645-94ecdf071787?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
     background-color: #fdf5df;
-    padding: 100px 50px;
-    height: 60vh;
-    object-fit: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px 50px;
+    Height: 100%;
   }
   .heroImgTutorial {
     background-image: url("https://images.unsplash.com/photo-1644611389948-0338632cedaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
@@ -88,6 +90,10 @@ body {
     font-size: 15px;
     border-radius: 8px;
     border: none;
+  }
+  button:hover {
+    background-color: black;
+    color: #5EBEC4;
   }
   footer {
     background-color: #5EBEC4;
@@ -134,6 +140,7 @@ body {
   margin-left: 50px;
   font-size: 24px;
 }
+
   
   
   
